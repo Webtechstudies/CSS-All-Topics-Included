@@ -1,0 +1,559 @@
+
+
+<!-- 
+<img src="images/turtle.jpg" title="This is a turtle">
+
+<style>
+[title] {
+	border:1px solid red;
+}
+</style>
+-->
+
+
+<!-- 
+<input id="input-text" type="text" placeholder="this is an input">
+<input id="input-text" type="text" placeholder="this is an input">
+
+<style type="text/css">
+#input-text {
+  border:3px solid green;
+}
+</style>
+-->
+
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button:hover{
+	box-shadow: 3px 3px 4px;
+}
+</style>
+-->
+
+
+<!-- 
+<input type="text" name="points" value="12" disabled>
+
+<style>
+input[type="text"]:disabled{
+	background-color:transparent;
+	border:0.2px solid #000;
+}
+</style>
+-->
+
+
+<!--
+<style type="text/css">
+/* 
+* these are equally strong. Change the order, and you will see it 
+*/
+
+.span-class {
+  color: blue;
+}
+
+[data-name] {
+  color: darkblue;
+}
+
+[data-name='something'] {
+  color: brown;
+}
+</style>
+
+<span class="span-class" data-name="something">This is a span.</span>
+-->
+
+
+
+
+<!-- 
+<h2 style="color:red !important;">This is a heading two</h2>
+
+<style>
+h2{
+	color:green !important;
+}
+</style>
+-->
+
+
+<!-- 
+<div id="mydiv"></div>
+
+<style>
+#mydiv{
+	width: 300px;
+	height: 400px;
+	background-color: green;
+}
+</style>
+-->
+
+
+<!-- 
+<div id="warning">Warning!</div>
+
+<style>
+#warning {
+	position: absolute;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+	padding: 10px;
+	text-align: center;
+	left: 100px;
+	width: calc(100% - 200px);
+}
+</style>
+-->
+
+<!-- 
+<p>This is a paragraph.</p>
+
+<style>
+p{
+	color: #EEBD33;
+}
+
+p{
+	color: #EEB;
+}
+</style>
+-->
+
+
+<!-- 
+<style>
+body {
+	background: url("pattern.jpg") repeat center center;
+}
+</style>
+
+<!-- 
+<table class="cities">
+    <tbody>
+        <tr>
+            <td>Order</td>
+            <td>Name</td>
+            <td>Population</td>
+            <td>Country</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tokyo</td>
+            <td>37.000.000</td>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Delhi</td>
+            <td>29.000.000</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Shanghai</td>
+            <td>26.000.000</td>
+            <td>China</td>
+        </tr>
+    </tbody>
+</table>
+
+<style>
+.cities {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.cities td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cities td:nth-child(even) {
+    background-color: #e6e6e6;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="container">
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+<style>
+.container div {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 30px;
+	background: #22D5FE;
+}
+
+.container:hover div{
+	transform:scale(0.8);
+}
+
+.container div:nth-child(1) {
+	transition: 0.5s;
+}
+
+.container div:nth-child(2) {
+	transition: 1s;
+}
+
+.container div:nth-child(3) {
+	transition: 1.5s;
+}
+</style>
+-->
+
+
+<!--
+<div class="container" >
+	<img src="images/fox.jpg">
+</div>
+
+<style>
+.container{
+	width:400px;
+	height:300px;
+	overflow:hidden;
+}
+
+img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+img:hover{
+	transform: scale(1.2) rotate(9deg);
+}	
+</style>
+-->
+
+<!-- 
+<div class="container">
+	<img src="images/fox.jpg">
+</div>
+
+<style>
+.container{
+	width:500px;
+	overflow:hidden;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:100%;
+}
+
+.container:after{
+	content:"";
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	background:rgba(180, 8, 0, 0.7);
+	transition:0.5s;
+	opacity: 0;
+}
+
+.container:hover:after{
+	opacity: 1;
+}	
+</style>
+-->
+
+<!-- 
+<div class="rectangle"></div>
+<div class="rectangle rectangle2"></div>
+<div class="rectangle rectangle3"></div>
+
+<style>
+.rectangle, .rectangle2 {
+	width: 50px;
+	height: 50px;
+	margin: 50px;
+	display: inline-block;
+	background: #22D5FE;
+}
+
+.rectangle2{
+	opacity: 0.3;
+}
+
+.rectangle3{
+	opacity: 0.6;
+}
+</style>
+-->
+
+<!--
+<div class="circle"></div>
+
+<style>
+.circle {
+	background: #05AC72;
+	border-radius:50%;
+	width:200px;
+	height:200px;
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0, 0.4);
+}
+</style>
+
+-->
+
+<!-- 
+<div class="container two">
+	<img src="images/bunny.jpg">
+</div>
+
+<style>
+.container{
+	width:500px;
+	overflow:hidden;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:100%;
+}
+
+.two{
+	filter: blur(5px);
+}
+</style>
+-->
+
+<!-- 
+<div class="flex-container">
+  <div>El1</div>
+  <div>El2</div>
+  <div>El3</div>
+  <div>El4</div>
+  <div>El5</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+	background-color: #1C9CE5;
+	height: 700px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 25px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="grid-container">
+	<div>El1</div>
+	<div>El2</div>
+	<div>El3</div>
+	<div>El4</div>
+	<div>El5</div>
+	<div>El6</div> 
+	<div>El7</div>
+	<div>El8</div> 
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-rows:100px;
+}
+
+.grid-container div {
+  background-color: #9966C5;
+  border: 1px solid #000;
+  font-size: 25px;
+  padding: 15px;
+  text-align: center;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="grid-container">
+	<div>El1</div>
+	<div>El2</div>
+	<div>El3</div>
+	<div>El4</div>
+	<div>El5</div>
+	<div>El6</div> 
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows:100px;
+}
+
+.grid-container div {
+  background-color: #9966C5;
+  border: 1px solid #000;
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+}
+</style>
+-->
+
+<!-- 
+<div class="grid-container">
+	<div>El1</div>
+	<div>El2</div>
+	<div>El3</div>
+	<div>El4</div>
+	<div>El5</div>
+	<div>El6</div> 
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3,33.33%);
+  grid-auto-rows:100px;
+  grid-gap: 20px;
+}
+
+.grid-container div {
+  background-color: #9966C5;
+  border: 1px solid #000;
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+}
+</style>
+-->
+
+<!-- 
+<div class="grid-container">
+	<div class="header">Header</div>
+	<div class="content">Content</div>
+	<div class="sidebar">Sidebar</div>
+</div>
+
+<style>
+.grid-container {
+	display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-areas:
+		"header header header header"
+		"content content content sidebar";
+}
+
+.grid-container div {
+	background-color: #9966C5;
+	border: 1px solid #000;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.header { grid-area: header; } 
+</style>
+-->
+
+
+<!-- 
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	background-color: #9966C5;
+}
+
+.flex-container div {
+	background-color: #FF91AE;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="flex-container">
+  <div>El1</div>
+  <div>El2</div>
+  <div>El3</div>
+  <div>El4</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+	background-color: #9966C5;
+	height: 700px;
+}
+
+.flex-container div {
+	background-color: #FF91AE;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="flex-container">
+  <div>El1</div>
+  <div>El2</div>
+  <div>El3</div>
+  <div>El4</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+	background-color: #9966C5;
+	height: 400px;
+}
+
+.flex-container div {
+	background-color: #FF91AE;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
